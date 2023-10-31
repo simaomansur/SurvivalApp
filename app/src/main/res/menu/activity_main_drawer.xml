@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_fire"
+            android:title="@string/fire" />
+        <item
+            android:id="@+id/nav_water"
+            android:title="@string/water" />
+        <item
+            android:id="@+id/nav_shelter"
+            android:title="@string/shelter" />
+        <item
+            android:id="@+id/nav_food"
+            android:title="@string/food" />
+        <item
+            android:id="@+id/nav_maps"
+            android:title="@string/maps" />
+        <item
+            android:id="@+id/nav_content"
+            android:title="@string/content" />
+
+    </group>
+</menu>

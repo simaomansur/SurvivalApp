@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    tools:ignore="ExtraText">
+
+    //bottom navigation
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.msudenver.cs3013.project03.fragments.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="edu.msudenver.cs3013.project03.fragments.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings"/>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="edu.msudenver.cs3013.project03.fragments.ProfileFragment"
+        android:label="@string/my_profile"
+        tools:layout="@layout/fragment_profile"/>
+
+    //nav drawer
+    <fragment
+        android:id="@+id/nav_fire"
+        android:name="edu.msudenver.cs3013.project03.fragments.FireFragment"
+        android:label="@string/fire"
+        tools:layout="@layout/fragment_fire" />
+
+    <fragment
+        android:id="@+id/nav_water"
+        android:name="edu.msudenver.cs3013.project03.fragments.WaterFragment"
+        android:label="@string/water"
+        tools:layout="@layout/fragment_water" />
+
+    <fragment
+        android:id="@+id/nav_shelter"
+        android:name="edu.msudenver.cs3013.project03.fragments.ShelterFragment"
+        android:label="@string/shelter"
+        tools:layout="@layout/fragment_shelter" >
+
+        <action
+            android:id="@+id/action_shelterFragment_to_debrisFragment"
+            app:destination="@id/nav_debris_shelter"
+            app:popUpTo="@id/nav_shelter"
+            />
+        <action
+            android:id="@+id/action_shelterFragment_to_TarpFragment"
+            app:destination="@id/nav_tarp_shelter"
+            app:popUpTo="@id/nav_shelter"
+            />
+        <action
+            android:id="@+id/action_shelterFragment_to_SnowCaveFragment"
+            app:destination="@id/nav_snow_cave"
+            app:popUpTo="@id/nav_shelter"
+            />
+        <action
+            android:id="@+id/action_shelterFragment_to_LeanToFragment"
+            app:destination="@id/nav_lean_to"
+            app:popUpTo="@id/nav_shelter"
+            />
+        <action
+            android:id="@+id/action_shelterFragment_to_UndergroundFragment"
+            app:destination="@id/nav_underground"
+            app:popUpTo="@id/nav_shelter"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_food"
+        android:name="edu.msudenver.cs3013.project03.fragments.FoodFragment"
+        android:label="@string/food"
+        tools:layout="@layout/fragment_food" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="edu.msudenver.cs3013.project03.fragments.MapsFragment"
+        android:label="@string/maps"
+        tools:layout="@layout/activity_maps" />
+
+    <fragment
+        android:id="@+id/nav_content"
+        android:name="edu.msudenver.cs3013.project03.fragments.ContentFragment"
+        android:label="@string/content"
+        tools:layout="@layout/fragment_content"/>
+
+    //shelter sub nav
+    <fragment
+        android:id="@+id/nav_debris_shelter"
+        android:name="edu.msudenver.cs3013.project03.subfrags.DebrisShelterFragment"
+        android:label="@string/debris_shelter"
+        tools:layout="@layout/fragment_debris_shelter" />
+
+    <fragment
+        android:id="@+id/nav_tarp_shelter"
+        android:name="edu.msudenver.cs3013.project03.subfrags.TarpShelterFragment"
+        android:label="@string/tarp_shelter"
+        tools:layout="@layout/fragment_tarp_shelter" />
+
+    <fragment
+        android:id="@+id/nav_snow_cave"
+        android:name="edu.msudenver.cs3013.project03.subfrags.SnowCaveShelterFragment"
+        android:label="@string/snow_cave"
+        tools:layout="@layout/fragment_snow_cave_shelter" />
+
+    <fragment
+        android:id="@+id/nav_lean_to"
+        android:name="edu.msudenver.cs3013.project03.subfrags.LeanToShelterFragment"
+        android:label="@string/lean_to"
+        tools:layout="@layout/fragment_lean_to_shelter" />
+
+    <fragment
+        android:id="@+id/nav_underground"
+        android:name="edu.msudenver.cs3013.project03.subfrags.UndergroundShelterFragment"
+        android:label="@string/underground_bunker"
+        tools:layout="@layout/fragment_underground_shelter" />
+</navigation>

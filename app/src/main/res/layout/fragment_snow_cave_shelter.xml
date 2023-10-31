@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".subfrags.SnowCaveShelterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="\n
+- Find a snowdrift or bank with compacted snow.\n\n
+- Dig into the snowbank to create a tunnel with an entrance and an interior space.\n\n
+- Make sure the ceiling of the tunnel is higher than the floor to prevent water dripping on you.\n\n
+- Create a separate ventilation hole to allow fresh air to enter the cave.\n" />
+
+</FrameLayout>

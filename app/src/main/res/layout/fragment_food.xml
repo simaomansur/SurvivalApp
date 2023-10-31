@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/food"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitle"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:lineSpacingExtra="8dp"
+            android:text="1. Assess your surroundings: Take stock of your environment and look for potential sources of food. This can include plant life, bodies of water, and animal habitats.\n\n
+2. Edible plants: Learn to identify edible plants in your region before venturing out. Look for familiar plants like berries, nuts, and edible roots. Avoid any plants with a strong smell or thorny appearance, as they might be toxic.\n\n
+3. Hunting and fishing: If you have the necessary tools, hunting or fishing can provide a more substantial food source. Craft simple traps, snares, or improvised fishing equipment to increase your chances of success. Prioritize smaller game or fish that require less effort to catch.\n\n
+4. Insects and grubs: Insects are an excellent source of protein and can be found in various environments. Look for beetles, ants, grasshoppers, and worms. Cook them thoroughly to eliminate any potential parasites.\n\n
+5. Coastal areas: If you're near a coast, seashore or tidal zones can provide seafood such as fish, crabs, clams, and seaweed. Familiarize yourself with local regulations regarding fishing and shellfish gathering.\n\n
+6. Animal carcasses: Keep an eye out for animal carcasses or signs of recent kills. Scavenging from larger animal carcasses can provide meat and bone marrow, but only if the animal died from natural causes.\n\n
+7. Waste and garbage: While not ideal, in urban or suburban areas, garbage bins or dumpsters might contain discarded food that is still edible. Exercise caution and use your judgment when considering such sources.\n\n
+8. Water sources: Remember that finding safe drinking water is equally important. Look for flowing streams, rivers, or collect rainwater. Purify water using filters, boiling, or chemical disinfectants to avoid waterborne illnesses.\n\n
+9. Food preservation: Once you've found food, prioritize immediate consumption. However, if you have excess, consider preservation techniques like drying, smoking, or curing to extend the shelf life.\n\n
+10. Prioritize safety: While scavenging for food, always prioritize your safety. Be cautious of your surroundings, avoid poisonous or unfamiliar plants, and take precautions to minimize the risk of injuries or encounters with dangerous wildlife."
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/homeTitle" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

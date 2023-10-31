@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".subfrags.TarpShelterFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="\n
+- Find two trees or stable objects spaced apart, where you want to set up the shelter. \n\n
+- Hang the tarp over a rope or a cord tied between the trees. The tarp should form a roof with the two ends sloping down. \n\n
+- Secure the tarp's corners and sides to the ground using stakes or heavy rocks to keep it in place. \n\n
+- If needed, add extra support to the tarp using additional ropes or cords tied to nearby trees. \n\n" />
+
+</FrameLayout>

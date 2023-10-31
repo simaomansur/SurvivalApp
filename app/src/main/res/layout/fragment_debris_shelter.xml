@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".subfrags.DebrisShelterFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="\n
+- Find a sturdy tree or a pair of trees close together.\n\n
+- Gather long branches and lean them against the trees to form the framework of the shelter.\n\n
+- Pile leaves, moss, grass, and other debris over the framework to create a thick, insulating layer.\n\n
+- Ensure there are no gaps or openings in the shelter that could let in rain or wind.\n" />
+
+</FrameLayout>

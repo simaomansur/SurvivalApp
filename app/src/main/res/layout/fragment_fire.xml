@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/fire"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitle">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/white"
+            android:text="Step 1: Gather your materials:\n\nTinder: Dry and easily ignitable material such as dry leaves, paper, or small twigs.\nKindling: Small sticks and twigs that are slightly thicker than your finger.\nFuel: Larger pieces of wood, preferably dry, to sustain the fire once it\'s started.\n\nStep 2: Find a suitable location:\n\nChoose a safe area away from any flammable objects or structures.\nClear the ground from any dry leaves, grass, or debris that could catch fire.\n\nStep 3: Prepare the fire pit:\n\nCreate a small depression in the ground or use a fire ring if available.\nEncircle the pit with rocks to contain the fire.\n\nStep 4: Arrange the tinder:\n\nPlace a small bundle of tinder material in the center of the fire pit.\nEnsure there\'s enough airflow around the tinder for the fire to breathe.\n\nStep 5: Build the kindling structure:\n\nCreate a small teepee-like structure around the tinder using kindling sticks.\nLeave a small opening on one side to allow you to light the fire.\n\nStep 6: Ignite the tinder:\n\nUse a lighter, matches, or a fire starter to ignite the tinder bundle.\nFocus the flame on the tinder, allowing it to catch fire.\n\nStep 7: Add more kindling:\n\nOnce the tinder is burning well, carefully add more kindling sticks to the fire.\nGradually increase the size of the sticks as the fire grows.\n\nStep 8: Add fuel-wood:\n\nAs the fire becomes established, add larger pieces of fuelwood to sustain it.\nStack the wood in a crisscross pattern to allow for airflow.\n\nStep 9: Maintain the fire:\n\nContinuously monitor the fire and add more fuelwood as needed.\nUse a stick or a fire poker to rearrange the burning material for better airflow.\n\nStep 10: Extinguish the fire:\n\nWhen you're finished with the fire, allow it to burn down to ashes.\nPour water on the fire and stir the ashes until they're cool to the touch.\n\nRemember, fire safety is crucial. Always follow local regulations, exercise caution, and ensure you have access to water or fire-extinguishing equipment before starting a fire. Never leave a fire unattended and always extinguish it completely before leaving the area."
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/homeTitle" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

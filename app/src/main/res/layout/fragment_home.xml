@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/home"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Welcome to the Survival App, your ultimate guide to thriving in challenging situations! Whether you find yourself in the wilderness, facing a natural disaster, or simply navigating the ups and downs of everyday life, this app is here to equip you with the knowledge and skills you need to overcome any obstacle.
+Inside our virtual survival toolkit, you'll discover a treasure trove of practical strategies, expert tips, and life-saving techniques that will empower you to adapt, survive, and even thrive in the face of adversity. From building a shelter and finding food in the wild to mastering essential first aid skills and developing a resilient mindset, we've got you covered.But survival is not just about physical strength, it's also about mental fortitude and emotional resilience. That's why our app goes beyond the basics and delves into psychological strategies, mindfulness exercises, and stress management techniques to help you stay focused, calm, and in control even when the odds seem stacked against you."
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/homeTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

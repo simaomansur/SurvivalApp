@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".subfrags.LeanToShelterFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="\n
+- Find a strong, long object like a large branch or log.\n\n
+- Prop one end of the object against a sturdy support, such as a tree or a rock.\n\n
+- Arrange smaller branches or logs against the main object to create a sloped roof.\n\n
+- Cover the roof with leaves, grass, or a tarp to provide better protection.\n" />
+
+</FrameLayout>

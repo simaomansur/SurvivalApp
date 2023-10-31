@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitle">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Our passion for creating a unique and engaging survival app led us on an exciting journey. We envisioned an app that would not only be useful but also enjoyable to use. With meticulous attention to detail, we overcame design challenges and ensured seamless navigation, resulting in a polished user interface.\n\n
+    To bring our vision to life, we carefully selected captivating backgrounds from Unsplash.com. Their extensive collection of free backgrounds allowed us to find visually appealing elements that perfectly complemented our app's aesthetic.\n\n
+    Throughout the development process, we drew inspiration and knowledge from various sources, including class lectures, Stack Overflow, GitHub, and YouTube tutorials. By amalgamating insights and best practices from these platforms, we crafted a robust navigation system that enhances the user experience.\n\n
+    While our app's design remains an ongoing endeavor, it already reflects our commitment to creating a captivating user interface. As we continue to evolve, we have exciting plans to introduce new features such as video tutorials, an integrated photo gallery, a dynamic user profile, and a comprehensive settings page.\n\n
+    We are grateful for your support and enthusiasm in using our app. Your feedback and suggestions are invaluable to us as we strive to provide you with an exceptional survival experience. Join us on this adventure, and together let's embrace the challenges of the wild while enjoying the convenience and functionality of this survival app."
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/homeTitle" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".subfrags.UndergroundShelterFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="\n
+- Note: Building an underground bunker is a complex task that requires planning, engineering, and proper construction materials. It's recommended to seek professional advice for this type of shelter.\n\n
+- Choose a suitable location with stable soil and good drainage.\n\n
+- Dig a large hole in the ground, deep enough to accommodate the desired bunker size.\n\n
+- Reinforce the walls and ceiling of the hole using strong materials like reinforced concrete or metal sheets.\n\n
+- Install ventilation systems and emergency exits to ensure safety inside the bunker.\n\n" />
+
+</FrameLayout>

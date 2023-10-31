@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/water"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitle">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:lineSpacingExtra="8dp"
+            android:text="1. Find a water source:\n\nLook for potential water sources such as rivers, streams, or lakes. If none are available, consider collecting rainwater or dew.\n\n2. Assess the water source:\n\nEvaluate the water source for potential contaminants, such as visible debris, chemical pollutants, or stagnant water. Avoid water sources near industrial areas, agricultural fields, or human settlements if possible.\n\n3. Build a filtration system:\n\nYou can create a makeshift filtration system using readily available materials. Here's a simple method using a container, cloth, sand, and charcoal:\n\n   a. Find a container:\n\n   Look for a clean container to hold the water. It can be a plastic bottle, a bucket, or any other suitable container.\n\n   b. Prepare the cloth layer:\n\n   Cut a piece of cloth, such as a t-shirt or bandana, and place it at the bottom of the container. This layer will help remove larger debris and sediment.\n\n   c. Add a layer of sand:\n\n   Collect clean sand from the surroundings and pour it on top of the cloth layer. The sand will act as a physical filter, removing finer particles from the water.\n\n   d. Create a charcoal layer:\n\n   Find or create charcoal by burning wood without oxygen. Crush the charcoal into small pieces and add a layer on top of the sand. Charcoal helps absorb impurities and improves the taste of the water.\n\n   e. Filter the water:\n\n   Slowly pour the collected water through the filtration system. The layers of cloth, sand, and charcoal will filter out impurities, resulting in cleaner water. Collect the filtered water in another container.\n\n4. Boil the water:\n\nAfter filtration, it's essential to kill any remaining microorganisms in the water. The most reliable way to do this is by boiling. Set up a fire or use a portable stove to bring the filtered water to a rolling boil. Maintain the boil for at least one minute to ensure all harmful bacteria, viruses, and parasites are killed.\n\n5. Let the water cool:\n\nAllow the boiled water to cool down before consumption. You can speed up the cooling process by placing the container in a shaded area or near a water source.\n\n6. Store the water:\n\nOnce the water has cooled, transfer it to clean, airtight containers. Store the water in a cool, dark place to prevent bacterial growth or contamination.\n\nRemember, while these methods can significantly improve the quality of water in a survival situation, they may not eliminate all contaminants. If possible, try to find and use additional water purification methods or resources to ensure your water is as clean and safe as possible."            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/homeTitle" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
